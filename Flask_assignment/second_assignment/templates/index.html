@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <p>Hello, Welcome to Signup Page</p>
+    <p>Today is {{ day_of_week }}</p>
+    <p>Time is {{ current_time }}</p>
+
+    <div class="centred">
+        <form action="/submit" method="POST">
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Enter your password">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <style>
+        body {
+            background-color: smokeywhite;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        p {
+            font-size: 24px;
+            color: #1a1526;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</footer>
+</html>
