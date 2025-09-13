@@ -1,0 +1,5 @@
+region = "us-east-1"
+ami = "ami-0360c520857e3138f"
+instance_type = "t2.micro"
+vpc = "vpc-0e9adfd279fcc017e"
+key_name = "aws-tutedude"
